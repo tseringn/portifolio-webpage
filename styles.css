@@ -221,13 +221,13 @@ section{
 
   @media(max-width: 1150px){
       #tseringnorbu{
-          font-size: 30px;
+          font-size: 33px;
       }
       nav>a{
-          font-size: 24px;
+          font-size: 30px;
       }
       .nav-link:hover{
-          font-size: 24px;
+          font-size: 30px;
       }
       section{
         height: auto;;
@@ -255,5 +255,14 @@ section{
       .project-tile > img{
         width: 100%;
         height: auto;
+    }
+    p{
+        font-size: 23px
+    }
+    h2{
+        font-size: 34px;
+    }
+    h3{
+        font-size: 29px;
     }
   }
