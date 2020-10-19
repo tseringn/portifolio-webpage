@@ -169,6 +169,7 @@ section{
 .education{
     display: flex;
     justify-content: space-around;   
+    flex-wrap: wrap;
 }
 .school{
     background-color: white;
@@ -217,8 +218,8 @@ section{
       height: auto;
       margin-bottom: -40px;
   }
-  
-  @media(max-width: 800px){
+
+  @media(max-width: 1150px){
       #tseringnorbu{
           font-size: 30px;
       }
