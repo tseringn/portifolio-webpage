@@ -239,8 +239,8 @@ section{
           
       }
       #experience{
-        max-width: 80%;
-        flex-direction: column;
+        width: 80%;
+        flex-wrap: wrap;
         align-items: center;
         justify-content: center;
       }
@@ -248,5 +248,8 @@ section{
           flex-direction: column;
           justify-content: center;
           align-items: center;
+      }
+      .company-logo{
+          width: 100%;
       }
   }
