@@ -169,21 +169,19 @@ section{
 .education{
     display: flex;
     justify-content: space-around;   
-    flex-wrap: wrap;
+    
 }
 .school{
     background-color: white;
     width: 280px;
     padding: 10px;
+    margin: 5px;
     align-items: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-bottom: 10px;
-    border-radius: 35px;
-    border-width: .5px;
-    border-style: solid;
-    border-color: lightgray;
+    box-shadow: 2px 2px 4px 1px lightgray;
 }
 .school > p {
     margin-top: -5px;
@@ -217,6 +215,10 @@ section{
       width: 450px;
       height: auto;
       margin-bottom: -40px;
+  }
+
+  #about-me{
+      padding: 10px;
   }
 
   @media(max-width: 1150px){
