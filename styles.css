@@ -227,6 +227,7 @@ section{
   }
   .certificates > a{
       font-size: 22px;
+      color: teal;
   }
   @media(max-width: 1150px){
       #tseringnorbu{
