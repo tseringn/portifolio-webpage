@@ -143,6 +143,7 @@ section{
     display: flex;
     justify-content: space-around; 
     padding: 10px;
+    margin: 5px;
 }
 .roles{
     padding: 15px;
@@ -217,6 +218,9 @@ section{
       height: auto;
       margin-bottom: -40px;
   }
+  /* .resume{
+      margin: 5px;
+  } */
 
   #about-me{
       padding: 10px;
