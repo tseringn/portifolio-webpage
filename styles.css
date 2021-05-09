@@ -142,6 +142,7 @@ section{
 #experience{
     display: flex;
     justify-content: space-around; 
+    padding: 10px;
 }
 .roles{
     padding: 15px;
@@ -222,6 +223,10 @@ section{
   }
   .certificates{
       padding: 20px;
+      box-shadow: 1px 1px 4px 1.5px rgba(179, 211, 224, 0.9);
+  }
+  .certificates > a{
+      font-size: 22px;
   }
   @media(max-width: 1150px){
       #tseringnorbu{
