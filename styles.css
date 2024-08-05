@@ -1,31 +1,29 @@
-#navbar{
+.navbar{
     display: flex;
-    position: fixed;
-    top: 0px;
-    right: 0px;
-    left: 0px;
     width: 100%;
     justify-content: space-between;
     align-items: center;
-    padding: 10px ;
-    box-shadow: 0px 2px 6px .1px black;
-    background-color: rgba(255, 255, 255, .99);
+    padding: 12px;
 }
-nav>a{
+#navbar-container{
+    width: 100vw;
+    position: fixed;
+    display: flex;
+    top: 0;
+    left:0;
+    right:0;
+    background-color:rgba(255, 255, 255, .99);
+    box-shadow: 0 4px 4px -4px rgba(0, 0, 0, 0.3);
+}
+
+.nav-link{
     text-decoration: none;
-    font-size: 34px;
+    font-size: 16px;
     color: indianred;
-    padding-right: 2%;
-}
-#tseringnorbu{
-    font-family: 'Righteous', cursive;
-    width: 25%;
-    font-size: 39px;
-    text-shadow: 1px 1px 24px burlywood;
 }
 .nav-link:hover{
     color: gray;
-    font-size: 36px;
+    font-size: 26px;
 }
 
 section{
@@ -38,10 +36,12 @@ section{
     margin-bottom: 13px;
 }
 #welcome-section{
-    margin-top: 75px;
+    margin-top: 5vh;
     background-color: indianred;
-    min-height: 90vh;
+    min-height: 100vh;
+    min-width: 100vw;
 }
+
 #welcome-section > h1{
     font-family: 'Righteous', cursive;
     color: white;
@@ -163,8 +163,8 @@ section{
 }
 .education{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;   
-    
 }
 .school{
     background-color: white;
@@ -226,15 +226,15 @@ section{
       color: teal;
       
   }
-  @media(max-width: 1150px){
-      #tseringnorbu{
-          font-size: 33px;
+  @media only screen and (min-width: 1024px){
+      #welcome-section{
+        margin-top: 8vh;
       }
-      nav>a{
-          font-size: 30px;
+     nav, .nav-link{
+          font-size: 36px;
       }
-      .nav-link:hover{
-          font-size: 30px;
+      nav,.nav-link:hover{
+          font-size: 38px;
       }
       section{
         height: auto;;
