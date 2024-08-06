@@ -1,536 +1,480 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tsering Norbu</title>
     <link rel="stylesheet" href="styles.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Righteous&display=swap"
-      rel="stylesheet"
-    />
-  </head>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet" />
+</head>
 
-  <body>
+<body>
     <div id="navbar-container">
-      <nav class="navbar">
-        <a class="nav-link" href="#experience">Experiences </a>
-        <a class="nav-link" href="#projects">Projects</a>
-        <a class="nav-link" href="#education">Education </a>
-        <a class="nav-link" href="#contact">Contact Me</a>
-      </nav>
+        <nav class="navbar">
+            <a class="nav-link" href="#experience">
+                <div class="nav-title">experience</div>
+                <svg class="nav-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                    <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+
+
+                </svg>
+
+            </a>
+            <a class="nav-link" href="#projects">
+                <div class="nav-title">projects</div>
+                <svg class="nav-icon"  xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+                </svg>
+                <rect x="2" y="3" width="20" height="18" rx="2" ry="2"></rect>
+                <line x1="8" y1="3" x2="8" y2="21"></line>
+                <path d="M16 8h.01"></path>
+                <path d="M16 12h.01"></path>
+                <path d="M16 16h.01"></path></svg>
+            </a>
+            <a class="nav-link" href="#education">
+                <div class="nav-title">education</div>
+                <svg class="nav-icon"  xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                    <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                </svg>
+            </a>
+            <a class="nav-link" href="#contact">
+                <div class="nav-title">contact me</div>
+                <svg class="nav-icon"  xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="2" y="3" width="20" height="18" rx="2" ry="2"></rect>
+                    <line x1="8" y1="3" x2="8" y2="21"></line>
+                    <path d="M16 8h.01"></path>
+                    <path d="M16 12h.01"></path>
+                    <path d="M16 16h.01"></path>
+                </svg>
+            </a>
+        </nav>
     </div>
 
     <section id="welcome-section">
-      <h1>
-        Hi 👋, I'm Tsering Norbu, a Full-stack developer passionate about
-        creating impactful and innovative products. Glad you're here!
-      </h1>
-      <br />
-      <br />
-      <h2>Scroll down to see my projects!</h2>
-      <img id="scroll-down-gif" src="resources/scrolldown.gif" />
+        <h1>
+            Hi 👋, I'm Tsering Norbu, a Full-stack developer passionate about
+            creating impactful and innovative products. Glad you're here!
+        </h1>
+        <br />
+        <br />
+        <h2>Scroll down to see my projects!</h2>
+        <img id="scroll-down-gif" src="resources/scrolldown.gif" />
     </section>
     <section id="projects">
-      <h2 class="sub-header">My projects</h2>
-      <div class="carousel">
-        <div class="project-tile">
-          <h1 class="project-header">Fisbum</h1>
-          <img src="resources/fisbum.png" class="project-thumbnail" />
-          <p class="project-description">
-            Social media mobile app that helps users to take care of each other
-            and maintain relationships with their friends and family
-          </p>
-          <p class="project-description">
-            React Native and Native Base in Expo CLI as frontend and Rails as
-            backend.Used Redux and Hooks for State Management tool, used
-            React-native maps, React-native-camera, React native qr-code svg
-          </p>
-          <div class="project-link">
-            <a target="_blank" href="https://github.com/tseringn/fisbum-app"
-              >Frontend</a
-            >
-            <a target="_blank" href="https://youtu.be/rX63iSQd1SE">Demo</a>
-            <a
-              target="_blank"
-              href="https://github.com/tseringn/fisbum-backend/tree/master/fisbum-api"
-              >Backend</a
-            >
-          </div>
-        </div>
-        <div class="project-tile">
-          <h1 class="project-header">HomeHue</h1>
-          <img src="resources/homeHue.png" class="project-thumbnail" />
-          <p class="project-description">
-            Web app that lets users determine their room paint palette based on
-            the color combination of a photo using AI
-          </p>
-          <p class="project-description">
-            Ruby on Rails as back-end and React as front end, AI API for
-            extracting colors from photo and Bootstrap and Semantic UI for
-            styling purposes
-          </p>
-          <div class="project-link">
-            <a
-              target="_blank"
-              href="https://github.com/tseringn/HomeHue-front-end"
-              >Frontend</a
-            >
-            <a target="_blank" href="https://youtu.be/ak3OjLj_duU">Demo</a>
-            <a
-              target="_blank"
-              href="https://github.com/tseringn/HomeHue-back-end"
-              >Backend</a
-            >
-          </div>
-        </div>
-        <div class="project-tile">
-          <h1 class="project-header">GameBox</h1>
-          <img src="resources/gameBox.png" class="project-thumbnail" />
-          <p class="project-description">
-            Web app that lets users keep track of time spent playing video games
-            and it’s completion time
-          </p>
-          <p class="project-description">
-            Ruby on Rails as back-end and plain CSS and Javascript as front end,
-            and API for the game data and Bootstrap
-          </p>
-          <div class="project-link">
-            <a target="_blank" href="https://github.com/tseringn/gameBox"
-              >Frontend</a
-            >
-            <a target="_blank" href="https://www.Demo.com/watch?v=L2fJH8gxQ-Q"
-              >Demo</a
-            >
-            <a target="_blank" href="https://github.com/tseringn/gameBox"
-              >Backend</a
-            >
-          </div>
-        </div>
+        <h2 class="sub-header">My projects</h2>
+        <div class="carousel">
+            <div class="project-tile">
+                <h1 class="project-header">Fisbum</h1>
+                <img src="resources/fisbum.png" class="project-thumbnail" />
+                <p class="project-description">
+                    Social media mobile app that helps users to take care of each other
+                    and maintain relationships with their friends and family
+                </p>
+                <p class="project-description">
+                    React Native and Native Base in Expo CLI as frontend and Rails as
+                    backend.Used Redux and Hooks for State Management tool, used
+                    React-native maps, React-native-camera, React native qr-code svg
+                </p>
+                <div class="project-link">
+                    <a target="_blank" href="https://github.com/tseringn/fisbum-app">Frontend</a>
+                    <a target="_blank" href="https://youtu.be/rX63iSQd1SE">Demo</a>
+                    <a target="_blank"
+                        href="https://github.com/tseringn/fisbum-backend/tree/master/fisbum-api">Backend</a>
+                </div>
+            </div>
+            <div class="project-tile">
+                <h1 class="project-header">HomeHue</h1>
+                <img src="resources/homeHue.png" class="project-thumbnail" />
+                <p class="project-description">
+                    Web app that lets users determine their room paint palette based on
+                    the color combination of a photo using AI
+                </p>
+                <p class="project-description">
+                    Ruby on Rails as back-end and React as front end, AI API for
+                    extracting colors from photo and Bootstrap and Semantic UI for
+                    styling purposes
+                </p>
+                <div class="project-link">
+                    <a target="_blank" href="https://github.com/tseringn/HomeHue-front-end">Frontend</a>
+                    <a target="_blank" href="https://youtu.be/ak3OjLj_duU">Demo</a>
+                    <a target="_blank" href="https://github.com/tseringn/HomeHue-back-end">Backend</a>
+                </div>
+            </div>
+            <div class="project-tile">
+                <h1 class="project-header">GameBox</h1>
+                <img src="resources/gameBox.png" class="project-thumbnail" />
+                <p class="project-description">
+                    Web app that lets users keep track of time spent playing video games
+                    and it’s completion time
+                </p>
+                <p class="project-description">
+                    Ruby on Rails as back-end and plain CSS and Javascript as front end,
+                    and API for the game data and Bootstrap
+                </p>
+                <div class="project-link">
+                    <a target="_blank" href="https://github.com/tseringn/gameBox">Frontend</a>
+                    <a target="_blank" href="https://www.Demo.com/watch?v=L2fJH8gxQ-Q">Demo</a>
+                    <a target="_blank" href="https://github.com/tseringn/gameBox">Backend</a>
+                </div>
+            </div>
 
-        <div class="project-tile">
-          <h1 class="project-header">Musically</h1>
-          <img src="resources/musically.png" class="project-thumbnail" />
-          <p class="project-description">
-            This music web app helps users play music, create a playlist and add
-            songs from Demo
-          </p>
-          <p class="project-description">
-            Used Rails as backend and embedded Ruby as frontend
-          </p>
-          <div class="project-link">
-            <a target="_blank" href="https://github.com/tseringn/musically"
-              >GitHub</a
-            >
-            <a
-              target="_blank"
-              href="https://www.youtube.com/watch?v=ndQMyEHGt-E"
-              >Demo</a
-            >
-          </div>
+            <div class="project-tile">
+                <h1 class="project-header">Musically</h1>
+                <img src="resources/musically.png" class="project-thumbnail" />
+                <p class="project-description">
+                    This music web app helps users play music, create a playlist and add
+                    songs from Demo
+                </p>
+                <p class="project-description">
+                    Used Rails as backend and embedded Ruby as frontend
+                </p>
+                <div class="project-link">
+                    <a target="_blank" href="https://github.com/tseringn/musically">GitHub</a>
+                    <a target="_blank" href="https://www.youtube.com/watch?v=ndQMyEHGt-E">Demo</a>
+                </div>
+            </div>
         </div>
-      </div>
     </section>
     <section id="about">
-      <div class="resume">
-        <h2>Experiences</h2>
-        <div id="experience">
-          <div class="roles">
-            <div class="company">
-              <h2>RahRah (knitted)</h2>
-              <img
-                class="company-logo"
-                src="https://media.licdn.com/dms/image/D560BAQHyEPPikqfjxA/company-logo_200_200/0/1708450072205/knittedio_logo?e=1730937600&v=beta&t=2JqMfHb9Sq_DVKGh0kCE_hnYjOYiey2VUAUx-Ve9yiY"
-              />
-            </div>
-            <div class="details">
-              <p>Software Engineer</p>
-              <p>07/2021 - 07/2024</p>
-              <p>Austin, TX, US</p>
-            </div>
-          </div>
-          <div class="roles">
-            <div class="company">
-              <h2>DoingGud</h2>
-              <img
-                class="company-logo"
-                src="https://media.licdn.com/dms/image/D4E0BAQGnAyrXh5nQaw/company-logo_200_200/0/1663934474300/doingudhq_logo?e=1730937600&v=beta&t=-2rwtVdq7s3pD5EWAAfUNzxCnlbu1822hJAFkRoOUrs"
-              />
-            </div>
+        <div class="resume">
+            <h2>Experiences</h2>
+            <div id="experience">
+                <div class="roles">
+                    <div class="company">
+                        <h2>RahRah (knitted)</h2>
+                        <img class="company-logo"
+                            src="https://media.licdn.com/dms/image/D560BAQHyEPPikqfjxA/company-logo_200_200/0/1708450072205/knittedio_logo?e=1730937600&v=beta&t=2JqMfHb9Sq_DVKGh0kCE_hnYjOYiey2VUAUx-Ve9yiY" />
+                    </div>
+                    <div class="details">
+                        <p>Software Engineer</p>
+                        <p>07/2021 - 07/2024</p>
+                        <p>Austin, TX, US</p>
+                    </div>
+                </div>
+                <div class="roles">
+                    <div class="company">
+                        <h2>DoingGud</h2>
+                        <img class="company-logo"
+                            src="https://media.licdn.com/dms/image/D4E0BAQGnAyrXh5nQaw/company-logo_200_200/0/1663934474300/doingudhq_logo?e=1730937600&v=beta&t=-2rwtVdq7s3pD5EWAAfUNzxCnlbu1822hJAFkRoOUrs" />
+                    </div>
 
-            <div class="details">
-              <p>Frontend Engineer</p>
-              <p>10/2020 - 07/2021</p>
-              <p>Dover, Delaware, United States</p>
-            </div>
-          </div>
-          <div class="roles">
-            <div class="company">
-              <h2>Palnor LLP</h2>
-              <img
-                class="company-logo"
-                src="https://media.licdn.com/dms/image/C510BAQEHhHt8eyyU5w/company-logo_100_100/0/1631435529372/palnor_llp_logo?e=1730937600&v=beta&t=m_-e88-_NNAHhh92kmwxU4Lhge9Lxho31fEwJW_tW6k"
-              />
-            </div>
+                    <div class="details">
+                        <p>Frontend Engineer</p>
+                        <p>10/2020 - 07/2021</p>
+                        <p>Dover, Delaware, United States</p>
+                    </div>
+                </div>
+                <div class="roles">
+                    <div class="company">
+                        <h2>Palnor LLP</h2>
+                        <img class="company-logo"
+                            src="https://media.licdn.com/dms/image/C510BAQEHhHt8eyyU5w/company-logo_100_100/0/1631435529372/palnor_llp_logo?e=1730937600&v=beta&t=m_-e88-_NNAHhh92kmwxU4Lhge9Lxho31fEwJW_tW6k" />
+                    </div>
 
-            <div class="details">
-              <p>Founder & Developer</p>
-              <p>12/2016 - 12/2018</p>
-              <p>Dharamsala, HP, India</p>
+                    <div class="details">
+                        <p>Founder & Developer</p>
+                        <p>12/2016 - 12/2018</p>
+                        <p>Dharamsala, HP, India</p>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
     </section>
     <section id="certificates">
-      <h2>Certificates</h2>
-      <div class="carousel">
-        <div class="certificates">
-          <div class="roles">
-            <div class="company">
-              <h3>LinkedIn</h3>
+        <h2>Certificates</h2>
+        <div class="carousel">
+            <div class="certificates">
+                <div class="roles">
+                    <div class="company">
+                        <h3>LinkedIn</h3>
+                    </div>
+
+                    <div class="details">
+                        <img class="certificate-provider-logo"
+                            src="https://media.licdn.com/dms/image/C560BAQHaVYd13rRz3A/company-logo_200_200/0/1638831590218/linkedin_logo?e=1730937600&v=beta&t=J1Gsz_LksVYJ3xMrisQ0yuRyUQSuPka3TI2IvWAr6Ks" />
+                    </div>
+                </div>
+                <p>
+                    <span class="gray-span"> Certification of Completion </span>
+                    <br />
+                    <br />
+                    <strong>Python Data Structures and Algorithms</strong>
+                    <br />
+                    <br />
+                    10/2020 - 11/2020
+                </p>
+                <a href="http://www.linkedin.com/learning/python-data-structures-and-algorithms">View Certificate</a>
             </div>
 
-            <div class="details">
-              <img
-                class="certificate-provider-logo"
-                src="https://media.licdn.com/dms/image/C560BAQHaVYd13rRz3A/company-logo_200_200/0/1638831590218/linkedin_logo?e=1730937600&v=beta&t=J1Gsz_LksVYJ3xMrisQ0yuRyUQSuPka3TI2IvWAr6Ks"
-              />
+            <div class="certificates">
+                <div class="roles">
+                    <div class="company">
+                        <h3>HackerRank</h3>
+                    </div>
+
+                    <div class="details">
+                        <img class="certificate-provider-logo"
+                            src="https://media.licdn.com/dms/image/D560BAQE8MivsmbT7Ig/company-logo_100_100/0/1705561459405/hackerrank_logo?e=1730937600&v=beta&t=VI2A7OaGpn8Q_EpYM_uGfTm7eKXoHwILD1wr2JCWp1o" />
+                    </div>
+                </div>
+                <p>
+                    <span class="gray-span"> Certification of Completion </span>
+                    <br />
+                    <br />
+                    <strong>React</strong>
+                    <br />
+                    <br />
+                    10/2020 - 11/2020
+                </p>
+                <a href="https://www.hackerrank.com/certificates/31af15a3a21e">View Certificate</a>
             </div>
-          </div>
-          <p>
-            <span class="gray-span"> Certification of Completion </span>
-            <br />
-            <br />
-            <strong>Python Data Structures and Algorithms</strong>
-            <br />
-            <br />
-            10/2020 - 11/2020
-          </p>
-          <a
-            href="http://www.linkedin.com/learning/python-data-structures-and-algorithms"
-            >View Certificate</a
-          >
+
+            <div class="certificates">
+                <div class="roles">
+                    <div class="company">
+                        <h3>LinkedIn</h3>
+                    </div>
+
+                    <div class="details">
+                        <img class="certificate-provider-logo"
+                            src="https://media.licdn.com/dms/image/C560BAQHaVYd13rRz3A/company-logo_200_200/0/1638831590218/linkedin_logo?e=1730937600&v=beta&t=J1Gsz_LksVYJ3xMrisQ0yuRyUQSuPka3TI2IvWAr6Ks" />
+                    </div>
+                </div>
+                <p>
+                    <span class="gray-span"> Certification of Completion </span>
+                    <br />
+                    <br />
+                    <strong>Agile Software Development: Scrum for Developers</strong>
+                    <br />
+                    <br />
+                    10/2020 - 11/2020
+                </p>
+                <a
+                    href="https://www.linkedin.com/learning/certificates/69e704cb6218d95f9f60530bec75b8b8e44f77a006d273274fb0318068b02f90?trk=backfilled_certificate">View
+                    Certificate</a>
+            </div>
+
+            <div class="certificates">
+                <div class="roles">
+                    <div class="company">
+                        <h3>Coursera</h3>
+                    </div>
+
+                    <div class="details">
+                        <img class="certificate-provider-logo"
+                            src="https://media.licdn.com/dms/image/C4D0BAQGexnfBxeEG-g/company-logo_100_100/0/1630530042036/coursera_logo?e=1730937600&v=beta&t=5JRcm8zsZO43RlnFdazmuRLzfT0so4rRs-v50X5nJ_8" />
+                    </div>
+                </div>
+                <p>
+                    <span class="gray-span"> Certification of Completion </span>
+                    <br />
+                    <br />
+                    <strong>IBM Cloud Computing Intro</strong>
+                    <br />
+                    <br />
+                    03/2021 - 04/2021
+                </p>
+                <a href="https://coursera.org/share/f90b54c9eda18cc74f094fab80821cf8">View Certificate</a>
+            </div>
+
+            <div class="certificates">
+                <div class="roles">
+                    <div class="company">
+                        <h3>freeCodeCamp</h3>
+                    </div>
+
+                    <div class="details">
+                        <img class="certificate-provider-logo"
+                            src="https://s3.amazonaws.com/freecodecamp/curriculum-diagram-full.jpg" />
+                    </div>
+                </div>
+                <p>
+                    <span class="gray-span">Certificate of completion</span>
+                    <br />
+                    <br />
+                    <strong>Responsive Web Design Responsive Web Design</strong>
+                    <br />
+                    <br />
+                    09/2020 - 10/2020
+                </p>
+
+                <a href="https://www.freecodecamp.org/certification/callas4ever/responsive-web-design">View
+                    Certificate</a>
+            </div>
+
+            <div class="certificates">
+                <div class="roles">
+                    <div class="company">
+                        <h3>freeCodeCamp</h3>
+                    </div>
+
+                    <div class="details">
+                        <img class="certificate-provider-logo"
+                            src="https://s3.amazonaws.com/freecodecamp/curriculum-diagram-full.jpg" />
+                    </div>
+                </div>
+                <p>
+                    <span class="gray-span">Certification of Completion</span>
+                    <br />
+                    <br />
+                    <strong>JavaScript Algorithms and Data Structures</strong>
+                    <br />
+                    <br />
+                    10/2020 - 11/2020
+                </p>
+                <a
+                    href="https://www.freecodecamp.org/certification/callas4ever/javascript-algorithms-and-data-structures">View
+                    Certificate</a>
+            </div>
+
+            <div class="certificates">
+                <div class="roles">
+                    <div class="company">
+                        <h3>HackerRank</h3>
+                    </div>
+
+                    <div class="details">
+                        <img class="certificate-provider-logo"
+                            src="https://upload.wikimedia.org/wikipedia/commons/4/40/HackerRank_Icon-1000px.png" />
+                    </div>
+                </div>
+                <p>
+                    <span class="gray-span">Certification of Completion </span>
+                    <br />
+                    <br />
+                    <strong>JavaScript</strong>
+                    <br />
+                    <br />
+                    02/2021 - 03/2021
+                </p>
+                <p></p>
+
+                <a href="https://www.hackerrank.com/certificates/b87d50d653a1">View Certificate</a>
+            </div>
+
+            <div class="certificates">
+                <div class="roles">
+                    <div class="company">
+                        <h3>HackerRank</h3>
+                    </div>
+
+                    <div class="details">
+                        <img class="certificate-provider-logo"
+                            src="https://upload.wikimedia.org/wikipedia/commons/4/40/HackerRank_Icon-1000px.png" />
+                    </div>
+                </div>
+                <p>
+                    <span class="gray-span"> Certification of Completion </span>
+                    <br />
+                    <br />
+                    <strong>Problem Solving</strong>
+                    <br />
+                    <br />
+                    02/2021 - 03/2021
+                </p>
+
+                <a href="https://www.hackerrank.com/certificates/2e92a5b414f6">View Certificate</a>
+            </div>
+
+            <div class="certificates">
+                <div class="roles">
+                    <div class="company">
+                        <h3>JPMorgan Chase & Co.</h3>
+                    </div>
+
+                    <div class="details">
+                        <img class="certificate-provider-logo"
+                            src="https://media.licdn.com/dms/image/D4E0BAQGxpntCyRgsuA/company-logo_200_200/0/1718711710850/jpmorganchase_logo?e=1730937600&v=beta&t=d6C8PuyXJNZNxrV37HV0DqyWwXpaC_ejwoTCkyPkLug" />
+                    </div>
+                </div>
+
+                <p>
+                    <span class="gray-span">Certification of Completion </span>
+                    <br />
+                    <br />
+                    <strong>JPMorgan Virtual Internship Experience</strong>
+                    <br />
+                    <br />10/2020 - 11/2020
+                </p>
+
+                <a
+                    href="https://insidesherpa.s3.amazonaws.com/completion-certificates/JP%20Morgan/R5iK7HMxJGBgaSbvk_JPMorgan%20Chase_qsehtkj6ng9c6nmzm_completion_certificate.pdf">View
+                    Certificate</a>
+            </div>
         </div>
-
-        <div class="certificates">
-          <div class="roles">
-            <div class="company">
-              <h3>HackerRank</h3>
-            </div>
-
-            <div class="details">
-              <img
-                class="certificate-provider-logo"
-                src="https://media.licdn.com/dms/image/D560BAQE8MivsmbT7Ig/company-logo_100_100/0/1705561459405/hackerrank_logo?e=1730937600&v=beta&t=VI2A7OaGpn8Q_EpYM_uGfTm7eKXoHwILD1wr2JCWp1o"
-              />
-            </div>
-          </div>
-          <p>
-            <span class="gray-span"> Certification of Completion </span>
-            <br />
-            <br />
-            <strong>React</strong>
-            <br />
-            <br />
-            10/2020 - 11/2020
-          </p>
-          <a href="https://www.hackerrank.com/certificates/31af15a3a21e"
-            >View Certificate</a
-          >
-        </div>
-
-        <div class="certificates">
-          <div class="roles">
-            <div class="company">
-              <h3>LinkedIn</h3>
-            </div>
-
-            <div class="details">
-              <img
-                class="certificate-provider-logo"
-                src="https://media.licdn.com/dms/image/C560BAQHaVYd13rRz3A/company-logo_200_200/0/1638831590218/linkedin_logo?e=1730937600&v=beta&t=J1Gsz_LksVYJ3xMrisQ0yuRyUQSuPka3TI2IvWAr6Ks"
-              />
-            </div>
-          </div>
-          <p>
-            <span class="gray-span"> Certification of Completion </span>
-            <br />
-            <br />
-            <strong>Agile Software Development: Scrum for Developers</strong>
-            <br />
-            <br />
-            10/2020 - 11/2020
-          </p>
-          <a
-            href="https://www.linkedin.com/learning/certificates/69e704cb6218d95f9f60530bec75b8b8e44f77a006d273274fb0318068b02f90?trk=backfilled_certificate"
-            >View Certificate</a
-          >
-        </div>
-
-        <div class="certificates">
-          <div class="roles">
-            <div class="company">
-              <h3>Coursera</h3>
-            </div>
-
-            <div class="details">
-              <img
-                class="certificate-provider-logo"
-                src="https://media.licdn.com/dms/image/C4D0BAQGexnfBxeEG-g/company-logo_100_100/0/1630530042036/coursera_logo?e=1730937600&v=beta&t=5JRcm8zsZO43RlnFdazmuRLzfT0so4rRs-v50X5nJ_8"
-              />
-            </div>
-          </div>
-          <p>
-            <span class="gray-span"> Certification of Completion </span>
-            <br />
-            <br />
-            <strong>IBM Cloud Computing Intro</strong>
-            <br />
-            <br />
-            03/2021 - 04/2021
-          </p>
-          <a href="https://coursera.org/share/f90b54c9eda18cc74f094fab80821cf8"
-            >View Certificate</a
-          >
-        </div>
-
-        <div class="certificates">
-          <div class="roles">
-            <div class="company">
-              <h3>freeCodeCamp</h3>
-            </div>
-
-            <div class="details">
-              <img
-                class="certificate-provider-logo"
-                src="https://s3.amazonaws.com/freecodecamp/curriculum-diagram-full.jpg"
-              />
-            </div>
-          </div>
-          <p>
-            <span class="gray-span">Certificate of completion</span>
-            <br />
-            <br />
-            <strong>Responsive Web Design Responsive Web Design</strong>
-            <br />
-            <br />
-            09/2020 - 10/2020
-          </p>
-
-          <a
-            href="https://www.freecodecamp.org/certification/callas4ever/responsive-web-design"
-            >View Certificate</a
-          >
-        </div>
-
-        <div class="certificates">
-          <div class="roles">
-            <div class="company">
-              <h3>freeCodeCamp</h3>
-            </div>
-
-            <div class="details">
-              <img
-                class="certificate-provider-logo"
-                src="https://s3.amazonaws.com/freecodecamp/curriculum-diagram-full.jpg"
-              />
-            </div>
-          </div>
-          <p>
-            <span class="gray-span">Certification of Completion</span>
-            <br />
-            <br />
-            <strong>JavaScript Algorithms and Data Structures</strong>
-            <br />
-            <br />
-            10/2020 - 11/2020
-          </p>
-          <a
-            href="https://www.freecodecamp.org/certification/callas4ever/javascript-algorithms-and-data-structures"
-            >View Certificate</a
-          >
-        </div>
-
-        <div class="certificates">
-          <div class="roles">
-            <div class="company">
-              <h3>HackerRank</h3>
-            </div>
-
-            <div class="details">
-              <img
-                class="certificate-provider-logo"
-                src="https://upload.wikimedia.org/wikipedia/commons/4/40/HackerRank_Icon-1000px.png"
-              />
-            </div>
-          </div>
-          <p>
-            <span class="gray-span">Certification of Completion </span>
-            <br />
-            <br />
-            <strong>JavaScript</strong>
-            <br />
-            <br />
-            02/2021 - 03/2021
-          </p>
-          <p></p>
-
-          <a href="https://www.hackerrank.com/certificates/b87d50d653a1"
-            >View Certificate</a
-          >
-        </div>
-
-        <div class="certificates">
-          <div class="roles">
-            <div class="company">
-              <h3>HackerRank</h3>
-            </div>
-
-            <div class="details">
-              <img
-                class="certificate-provider-logo"
-                src="https://upload.wikimedia.org/wikipedia/commons/4/40/HackerRank_Icon-1000px.png"
-              />
-            </div>
-          </div>
-          <p>
-            <span class="gray-span"> Certification of Completion </span>
-            <br />
-            <br />
-            <strong>Problem Solving</strong>
-            <br />
-            <br />
-            02/2021 - 03/2021
-          </p>
-
-          <a href="https://www.hackerrank.com/certificates/2e92a5b414f6"
-            >View Certificate</a
-          >
-        </div>
-
-        <div class="certificates">
-          <div class="roles">
-            <div class="company">
-              <h3>JPMorgan Chase & Co.</h3>
-            </div>
-
-            <div class="details">
-              <img
-                class="certificate-provider-logo"
-                src="https://media.licdn.com/dms/image/D4E0BAQGxpntCyRgsuA/company-logo_200_200/0/1718711710850/jpmorganchase_logo?e=1730937600&v=beta&t=d6C8PuyXJNZNxrV37HV0DqyWwXpaC_ejwoTCkyPkLug"
-              />
-            </div>
-          </div>
-
-          <p>
-            <span class="gray-span">Certification of Completion </span>
-            <br />
-            <br />
-            <strong>JPMorgan Virtual Internship Experience</strong>
-            <br />
-            <br />10/2020 - 11/2020
-          </p>
-
-          <a
-            href="https://insidesherpa.s3.amazonaws.com/completion-certificates/JP%20Morgan/R5iK7HMxJGBgaSbvk_JPMorgan%20Chase_qsehtkj6ng9c6nmzm_completion_certificate.pdf"
-            >View Certificate</a
-          >
-        </div>
-      </div>
     </section>
 
     <section id="education">
-      <div class="resume">
-        <h2>Education</h2>
-        <div class="education">
-          <div class="school">
-            <h3>Flatiron School</h3>
-            <img
-              class="school-logo"
-              src="https://upload.wikimedia.org/wikipedia/commons/6/61/FS_wiki.png"
-            />
-            <p>New York, NY</p>
-            <p>05/2020 - 08/2020</p>
-            <p>Software Engineering Bootcamp</p>
-          </div>
-          <div class="school">
-            <h3>O.P. Jindal University</h3>
-            <img
-              class="school-logo"
-              src="https://upload.wikimedia.org/wikipedia/en/8/87/O._P._Jindal_Global_University_Logo.png"
-            />
-            <p>Soniapat, HR India</p>
-            <p>09/2018-12/2018</p>
-            <p>Business Management</p>
-          </div>
-          <div class="school">
-            <h3>Manipal Institute of Technology</h3>
-            <img
-              class="school-logo"
-              src="https://manipal.edu/content/dam/manipal/mu/mcops-manipal/Images_new/MAHE_Color.svg"
-            />
-            <p>Manipal, KS, India</p>
-            <p>07/2016-06/2018</p>
-            <p>Computer Science Engineering</p>
-          </div>
-          <div class="school">
-            <h3>TCV School Suja</h3>
-            <img
-              class="school-logo"
-              src="https://cdn.shopify.com/s/files/1/0761/0911/files/TCV_logo_large.png?v=1540829390"
-            />
-            <p>Suja, HP, India</p>
-            <p>04/2008-04/2016</p>
-            <p>Majored in Computer Science</p>
-          </div>
+        <div class="resume">
+            <h2>Education</h2>
+            <div class="education">
+                <div class="school">
+                    <h3>Flatiron School</h3>
+                    <img class="school-logo" src="https://upload.wikimedia.org/wikipedia/commons/6/61/FS_wiki.png" />
+                    <p>New York, NY</p>
+                    <p>05/2020 - 08/2020</p>
+                    <p>Software Engineering Bootcamp</p>
+                </div>
+                <div class="school">
+                    <h3>O.P. Jindal University</h3>
+                    <img class="school-logo"
+                        src="https://upload.wikimedia.org/wikipedia/en/8/87/O._P._Jindal_Global_University_Logo.png" />
+                    <p>Soniapat, HR India</p>
+                    <p>09/2018-12/2018</p>
+                    <p>Business Management</p>
+                </div>
+                <div class="school">
+                    <h3>Manipal Institute of Technology</h3>
+                    <img class="school-logo"
+                        src="https://manipal.edu/content/dam/manipal/mu/mcops-manipal/Images_new/MAHE_Color.svg" />
+                    <p>Manipal, KS, India</p>
+                    <p>07/2016-06/2018</p>
+                    <p>Computer Science Engineering</p>
+                </div>
+                <div class="school">
+                    <h3>TCV School Suja</h3>
+                    <img class="school-logo"
+                        src="https://cdn.shopify.com/s/files/1/0761/0911/files/TCV_logo_large.png?v=1540829390" />
+                    <p>Suja, HP, India</p>
+                    <p>04/2008-04/2016</p>
+                    <p>Majored in Computer Science</p>
+                </div>
+            </div>
         </div>
-      </div>
     </section>
     <section id="contact">
-      <!-- <img id="profile-img" src="resources/profile.png"> -->
-      <footer id="footer">
-        <p id="footer-content">
-          Developed by Tsering Norbu and it is one of the projects from
-          <a href="https://www.freecodecamp.org/"> Free Code Camp</a>'s 300
-          hours Web Development certification course. Happy to connect with you
-          guys, links are below!
-        </p>
-        <hr />
-        <div id="footer-links">
-          <a
-            href="https://www.linkedin.com/in/tsering-norbu-3b8a07143/"
-            target="_black"
-          >
-            <img
-              src="https://cdn.iconscout.com/icon/free/png-256/linkedin-154-459182.png"
-              id="footer-img"
-            />
-          </a>
-          <a
-            id="profile-link"
-            href="https://github.com/tseringn"
-            target="_blank"
-          >
-            <img
-              src="https://www.flaticon.com/svg/static/icons/svg/25/25231.svg"
-              id="footer-img"
-            />
-          </a>
-          <a href="https://twitter.com/BhuTseringNorbu" target="_black">
-            <img
-              src="https://img.icons8.com/ios/452/twitter.png"
-              id="footer-img"
-            />
-          </a>
-          <a href="https://www.instagram.com/bhutsenor/" target="_black">
-            <img
-              src="https://image.flaticon.com/icons/png/512/87/87390.png"
-              id="footer-img"
-            />
-          </a>
-        </div>
-      </footer>
+        <!-- <img id="profile-img" src="resources/profile.png"> -->
+        <footer id="footer">
+            <p id="footer-content">
+                Developed by Tsering Norbu and it is one of the projects from
+                <a href="https://www.freecodecamp.org/"> Free Code Camp</a>'s 300
+                hours Web Development certification course. Happy to connect with you
+                guys, links are below!
+            </p>
+            <hr />
+            <div id="footer-links">
+                <a href="https://www.linkedin.com/in/tsering-norbu-3b8a07143/" target="_black">
+                    <img src="https://cdn.iconscout.com/icon/free/png-256/linkedin-154-459182.png" id="footer-img" />
+                </a>
+                <a id="profile-link" href="https://github.com/tseringn" target="_blank">
+                    <img src="https://www.flaticon.com/svg/static/icons/svg/25/25231.svg" id="footer-img" />
+                </a>
+                <a href="https://twitter.com/BhuTseringNorbu" target="_black">
+                    <img src="https://img.icons8.com/ios/452/twitter.png" id="footer-img" />
+                </a>
+                <a href="https://www.instagram.com/bhutsenor/" target="_black">
+                    <img src="https://image.flaticon.com/icons/png/512/87/87390.png" id="footer-img" />
+                </a>
+            </div>
+        </footer>
     </section>
-  </body>
+</body>
+
 </html>
