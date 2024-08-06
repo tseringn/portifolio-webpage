@@ -45,11 +45,12 @@ section {
 
 .carousel {
   display: flex;
+  width: 100%;
   max-width: 98vw;
   overflow-x: scroll;
   flex-direction: row;
   align-items: stretch;
-  justify-content: space-between;
+  justify-content: space-around;
   gap: 16px;
   padding: 16px;
 }
@@ -83,9 +84,10 @@ section {
   justify-content: space-around;
   align-items: center;
   background-color: snow;
+  width: 100%;
 }
 .project-tile {
-  width: 300px;
+  min-width: 300px;
   max-width: 300px;
   background-color: white;
   padding: 15px;
@@ -258,10 +260,6 @@ a {
 .certificates {
   padding: 12px;
   box-shadow: 1px 2px 4px 1.5px rgba(179, 211, 224, 0.9);
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
-  scroll-snap-align: start;
 }
 .certificates > a {
   font-size: 22px;
@@ -320,7 +318,6 @@ a {
     height: auto;
   }
   .carousel {
-    justify-content: space-evenly;
     gap: 10px;
   }
   p {
