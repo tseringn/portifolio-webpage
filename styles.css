@@ -38,16 +38,17 @@ section {
 
 .carousel {
   display: flex;
-  width: 100%;
-  max-width: 100vw;
-  overflow: scroll;
+  max-width: 98vw;
+  overflow-x: scroll;
   flex-direction: row;
   align-items: stretch;
   justify-content: space-between;
   gap: 16px;
-  padding: 0 16px;
+  padding: 16px;
 }
-
+.gray-span {
+  color: rgb(156, 152, 152);
+}
 #welcome-section {
   margin-top: 5vh;
   background-color: indianred;
@@ -152,6 +153,7 @@ section {
   border-radius: 30px;
   object-fit: contain;
 }
+
 #experience {
   display: flex;
   justify-content: space-evenly;
@@ -172,6 +174,19 @@ section {
 .company {
   padding-right: 15px;
   border-right: teal solid 1px;
+}
+#certificates {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+.certificate-provider-logo {
+  width: 50px;
+  height: 50px;
+  aspect-ratio: 1;
+  object-fit: contain;
+  border-radius: 50%;
 }
 .school-logo {
   object-fit: contain;
@@ -234,10 +249,11 @@ a {
   padding: 10px;
 }
 .certificates {
-  padding: 20px;
-  box-shadow: 1px 1px 4px 1.5px rgba(179, 211, 224, 0.9);
-  margin-top: 10px;
-  margin-bottom: 10px;
+  padding: 12px;
+  box-shadow: 1px 2px 4px 1.5px rgba(179, 211, 224, 0.9);
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
 }
 .certificates > a {
   font-size: 22px;
@@ -269,7 +285,6 @@ a {
   .roles {
   }
   #experience {
-    width: 80%;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
@@ -287,8 +302,8 @@ a {
     height: auto;
   }
   .carousel {
-    gap: 0px;
     justify-content: space-evenly;
+    gap: 10px;
   }
   p {
     font-size: 14px;
