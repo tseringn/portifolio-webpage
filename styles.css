@@ -261,6 +261,7 @@ a {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
+  scroll-snap-align: start;
 }
 .certificates > a {
   font-size: 22px;
